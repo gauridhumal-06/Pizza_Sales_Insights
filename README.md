@@ -168,7 +168,7 @@ The dashboard transforms raw transactional data into actionable insights for bus
 
 Show what the dashboard looks like.
 
-![Dashboard Preview](YOUR_IMAGE_LINK_HERE)
+![Dashboard Preview](https://github.com/gauridhumal-06/Pizza_Sales_Insights/blob/main/pizza_sales_dashboard.png)
 
 - Excel Reporting
 - Analytical Thinking
