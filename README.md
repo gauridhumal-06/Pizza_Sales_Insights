@@ -170,6 +170,4 @@ Show what the dashboard looks like.
 
 ![Dashboard Preview](https://github.com/gauridhumal-06/Pizza_Sales_Insights/blob/main/pizza_sales_dashboard.png)
 
-- Excel Reporting
-- Analytical Thinking
-- Business Insight Generation
+
