@@ -1,17 +1,14 @@
-# Pizza_Sales_Insights
-Excel Project Sales Insights
-
 # 🍕 Pizza Sales Performance Analysis (End-to-End)
 
-An end-to-end sales analytics project built using MS SQL Server and Microsoft Excel to analyze pizza sales performance, uncover business insights, and create an interactive dashboard for decision-making. The project focuses on transforming raw transactional data into meaningful KPIs and visual reports that help identify sales trends, customer ordering behavior, and product performance.
+An end-to-end sales analytics project built using MS SQL Server and Microsoft Excel to analyze pizza sales data and generate business insights through SQL analysis and interactive dashboards.
 
 ---
 
 # 📌 Short Description / Purpose
 
-The Pizza Sales Performance Analysis project was developed to simulate a real-world business intelligence workflow using sales transaction data. The project involves building a complete analytics pipeline — from importing raw CSV data into SQL Server, performing advanced SQL analysis, transforming data using Power Query, and creating an interactive Excel dashboard for reporting and business insights.
+The Pizza Sales Performance Analysis project was developed to analyze pizza sales transaction data using SQL and Excel. The project focuses on importing raw CSV data into MS SQL Server, performing SQL-based KPI analysis, and building an interactive Excel dashboard for reporting and visualization.
 
-This dashboard helps stakeholders understand revenue patterns, peak ordering hours, top-performing pizza categories, and underperforming menu items to support data-driven business decisions.
+The dashboard helps analyze sales trends, ordering behavior, top-selling pizzas, and overall business performance.
 
 ---
 
@@ -19,36 +16,36 @@ This dashboard helps stakeholders understand revenue patterns, peak ordering hou
 
 The project was built using the following tools and technologies:<br>
 
-• 🗄️ **MS SQL Server** – Used for database creation, structured querying, KPI calculations, and analytical processing.<br>
+• 🗄️ **MS SQL Server** – Used for storing and querying sales data.<br>
 
-• 📊 **Microsoft Excel** – Used for dashboard development and business reporting.<br>
+• 📊 **Microsoft Excel** – Used for dashboard creation and reporting.<br>
 
-• 🔄 **Power Query** – Used for ETL operations including data cleaning, transformation, and establishing live SQL connections.<br>
+• 🔄 **Power Query** – Used for data cleaning and transformation.<br>
 
-• 🧠 **SQL** – Used for aggregations, joins, KPI calculations, date analysis, and business insights extraction.<br>
+• 🧠 **SQL** – Used for joins, aggregations, and KPI calculations.<br>
 
-• 📈 **Pivot Tables & Pivot Charts** – Used to build dynamic and interactive dashboard visualizations.<br>
+• 📈 **Pivot Tables & Pivot Charts** – Used to create interactive dashboard visuals.<br>
 
-• 🎛️ **Slicers & Timelines** – Enabled interactive filtering and drill-down analysis across different time periods.<br>
+• 🎛️ **Slicers & Timelines** – Used for filtering and interactive analysis.<br>
 
-• 📁 **File Formats** – `.sql`, `.xlsx`, `.csv`, and dashboard preview images for reporting and presentation.
+• 📁 **File Formats** – `.sql`, `.xlsx`, `.csv`.
 
 ---
 
 # 📂 Data Source
 
-Source: Public Dataset available on internet
+Source: Maven Analytics Pizza Sales Dataset
 
-The dataset contains over **48,000+ rows** of pizza sales transaction data, including:
+The dataset contains over **48,000+ rows** of pizza sales transaction data including:
 
-- Order details  
-- Pizza categories and sizes  
-- Quantity sold  
-- Revenue generated  
-- Date and time of orders  
-- Product-level sales information  
+- Order details
+- Pizza categories
+- Pizza sizes
+- Quantity sold
+- Revenue
+- Order date and time
 
-The raw CSV files were imported into MS SQL Server for structured storage and analysis before being connected to Excel for reporting and dashboard creation.
+The raw CSV files were imported into MS SQL Server for analysis and connected to Excel for dashboard creation.
 
 ---
 
@@ -56,117 +53,96 @@ The raw CSV files were imported into MS SQL Server for structured storage and an
 
 ## • Business Problem
 
-Pizza businesses generate large volumes of transactional sales data daily, but raw data alone does not provide meaningful business insights.
+Pizza businesses generate large amounts of sales data daily, making it difficult to manually track revenue trends, customer ordering behavior, and product performance.
 
 Key business questions included:
 
 - Which pizzas generate the highest revenue?
-- What are the peak ordering hours and busiest days?
+- What are the busiest ordering days and hours?
 - Which pizza categories perform best?
 - Which products are underperforming?
-- How can inventory and menu decisions be optimized using sales data?
-
-Without a centralized analytical dashboard, identifying trends and making informed decisions becomes difficult and time-consuming.
 
 ---
 
 ## • Goal of the Dashboard
 
-The main objectives of this dashboard were to:
+The main objectives of this project were to:
 
-- Build a complete end-to-end analytics workflow.
-- Transform raw sales data into actionable business insights.
-- Monitor core KPIs such as Revenue, Orders, and Average Order Value.
-- Analyze sales trends across time, product categories, and customer ordering behavior.
-- Support data-driven decisions related to menu optimization and operational planning.
+- Analyze pizza sales data using SQL.
+- Calculate important business KPIs.
+- Build an interactive Excel dashboard.
+- Identify sales trends and product performance.
+- Support data-driven business decisions.
+
+---
+
+## • SQL Analysis Performed
+
+The project includes SQL analysis using:
+
+- Aggregations
+- Joins
+- GROUP BY
+- Date Functions (`DATENAME`, `DATEPART`)
+
+KPIs calculated include:
+
+- Total Revenue
+- Average Order Value
+- Total Pizzas Sold
 
 ---
 
 ## • Walkthrough of Key Visuals
 
 ### 📌 KPI Cards
-The dashboard tracks critical business KPIs including:
+The dashboard tracks:
 
 - Total Revenue
 - Total Orders
 - Total Pizzas Sold
 - Average Order Value
-- Average Pizzas per Order
 
 ---
 
-### 📈 Hourly Sales Trend Analysis
-Line and bar visualizations were used to analyze hourly ordering trends and identify peak sales periods during the day.
-
-Key insight:
-- Highest order volumes were observed during lunch and evening hours.
+### 📈 Hourly Sales Trend
+Analyzed hourly ordering patterns to identify peak sales periods.
 
 ---
 
 ### 📅 Daily Order Trend
-Visual analysis identified the busiest ordering days of the week.
+Identified busiest ordering days.
 
 Key insight:
-- Fridays and Saturdays generated the highest sales activity.
+- Fridays and Saturdays showed higher sales activity.
 
 ---
 
 ### 🍕 Sales by Pizza Category
-Interactive charts compare revenue contribution across pizza categories such as:
-
-- Classic
-- Supreme
-- Veggie
-- Chicken
-
-This helps identify the most profitable product segments.
+Analyzed revenue contribution across different pizza categories.
 
 ---
 
 ### 🏆 Best & Worst Selling Pizzas
-Top-performing and underperforming pizzas were analyzed based on:
-
-- Revenue generated
-- Quantity sold
-- Number of orders
-
-This analysis supports strategic menu optimization and inventory planning.
+Identified top-performing and underperforming pizzas based on sales performance.
 
 ---
 
 ### 🎛️ Interactive Filters
-The dashboard includes:
-
-- Slicers
-- Timelines
-- Dynamic filtering options
-
-These features allow users to perform drill-down analysis across different periods and categories.
+Used slicers and timelines for dynamic filtering and time-based analysis.
 
 ---
 
-## • Business Impact & Insights
+## • Business Insights
 
-### 📌 Revenue Optimization
-Identified high-performing pizza categories and products contributing the most revenue.
-
-### 📌 Operational Planning
-Peak order hour analysis helps businesses optimize staffing and kitchen operations during high-demand periods.
-
-### 📌 Menu Optimization
-Underperforming pizzas were identified, enabling data-backed menu improvement decisions.
-
-### 📌 Inventory Management
-Sales trends and product demand insights support better inventory forecasting and ingredient management.
-
-### 📌 Data-Driven Decision Making
-The dashboard transforms raw transactional data into actionable insights for business stakeholders.
+- Identified top-selling pizza categories.
+- Analyzed peak ordering periods.
+- Identified underperforming products.
+- Generated insights to support menu and sales analysis.
 
 ---
 
 # 📸 Screenshots 
-
-Show what the dashboard looks like.
 
 ![Dashboard Preview](https://github.com/gauridhumal-06/Pizza_Sales_Insights/blob/main/pizza_sales_dashboard.png)
 
